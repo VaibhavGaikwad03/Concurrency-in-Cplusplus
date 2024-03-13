@@ -3,8 +3,7 @@
 #include <string>
 
 /* Thread entry point function */
-/* Requires a rvalue argument */
-void fun(std::string &&str)
+void fun(std::string &&str) /* Requires a rvalue argument */
 {
     std::cout << "Ownership of \"" << str << "\" transferred to thread" << '\n';
 }
