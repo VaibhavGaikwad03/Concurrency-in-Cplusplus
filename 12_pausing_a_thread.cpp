@@ -3,7 +3,7 @@
 
 using namespace std::literals;
 
-/* Task funtion */
+/* Task function */
 void hello()
 {
     /* std::this_thread::sleep_for(std::chrono::seconds(2)); C++ 11 */
