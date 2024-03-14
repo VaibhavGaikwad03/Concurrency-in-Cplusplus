@@ -4,7 +4,7 @@
 /* Task funtion */
 void hello()
 {
-    std::cout << "Hello, World!\n";
+    std::cout << "Hello, World!" << std::endl;
 }
 
 int main()
@@ -17,6 +17,9 @@ int main()
 
     /* Wait for the thread to complete */
     t.join();
+
+    /* Display the child thread's native handle again */
+    std::cout << "Hello thread now has native handle " << t.native_handle() << '\n';
 
     return 0;
 }
