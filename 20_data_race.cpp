@@ -1,6 +1,6 @@
 // Unsynchronized threads which make conflicting accesses.
 // But where is the shared memory location?
-
+ 
 #include <thread>
 #include <iostream>
 
